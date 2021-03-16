@@ -1,39 +1,48 @@
-NAME	=	my_ls
+##
+## EPITECH PROJECT, 2017
+## MAKEFILE
+## File description:
+## Makefile
+##
 
-SRC	=	src/main.c		\
-		src/simple_ls.c		\
-		src/check_flag.c	\
-		src/can_open_dir.c	\
-		src/flags.c		\
-		src/flag_t.c		\
-		src/flag_l.c		\
-		src/display_l.c		\
-		src/flag_r.c		\
-		src/count_files.c	\
-		src/fill_tab.c		\
-		src/time_check.c	\
-		src/swap_elems.c	\
-		src/my_putchar.c	\
-		src/my_putstr.c		\
-		src/my_strlen.c		\
-		src/my_put_nbr.c	\
-		src/my_strcat.c
+NAME	= my_ls
 
-OBJ	=	$(SRC:.c=.o)
+CC	= gcc -g
 
-CFLAGS	=	-W -Wextra -Wall -g3 -fsanitize=address
+RM	= rm -f
 
-CPPFLAGS=	-I./include
+SRCS	=	./src/main.c		\
+		./src/fill_struct.c	\
+		./src/my_right.c	\
+		./src/my_lsl.c		\
+		./src/my_lsr.c		\
+		./src/my_option.c	\
+		./src/my_lsdt.c		\
+		./src/my_lsd.c		\
+		./src/my_lsrmin.c
 
-all	:	$(OBJ)
-		gcc $(CFLAGS) -o $(NAME) $(SRC) $(CPPFLAGS)
+OBJS	= $(SRCS:.c=.o)
 
-clean	:
-		rm -f $(OBJ)
+LIB = -L ./lib/my/ -lmy
 
-fclean	:	clean
-		rm -f $(NAME)
+CFLAGS = -I ./include/
 
-re	:	fclean all
+CFLAGS += -W -Wall -Wextra
 
-.PHONY	:	all clean fclean re
+all: $(NAME)
+
+$(NAME):	$(OBJS)
+		make -C ./lib/my/
+		$(CC) $(OBJS) -o $(NAME) $(CFLAGS) $(LIB)
+		rm lib/libmy.a
+
+clean:
+	$(RM) $(OBJS)
+
+fclean: clean
+	$(RM) $(NAME)
+	make fclean -C ./lib/my/
+
+re: fclean all
+
+.PHONY: all clean fclean re
