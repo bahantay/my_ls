@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** get
-** File description:
-** nbr
-*/
-
 #include "my.h"
 
 int	my_getnbr(char const *str, int *i)

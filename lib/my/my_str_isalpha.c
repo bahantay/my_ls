@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** is
-** File description:
-** alpha
-*/
-
 #include "my.h"
 
 int	my_str_isalpha(char const *str)

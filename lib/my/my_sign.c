@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** sign
-** File description:
-** sign
-*/
-
 #include "my.h"
 
 int     my_sign_neg(int *i, va_list arg, int (**print)(), const char *format)

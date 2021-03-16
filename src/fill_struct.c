@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** filml
-** File description:
-** strict
-*/
-
 #include "myls.h"
 #include "my.h"
 

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** right
-** File description:
-** right
-*/
-
 #include "myls.h"
 #include "my.h"
 

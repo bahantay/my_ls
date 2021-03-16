@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** cat
-*/
-
 #include "my.h"
 
 char	*my_strcat(char *dest, char const *src)

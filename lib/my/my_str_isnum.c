@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** isnum
-*/
-
 #include "my.h"
 
 int	my_str_isnum(char const *str)

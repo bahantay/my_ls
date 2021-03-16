@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** power
-** File description:
-** it
-*/
-
 #include "my.h"
 
 int	my_compute_power_it(int nb, int p)

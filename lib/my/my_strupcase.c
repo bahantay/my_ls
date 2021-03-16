@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** upcase
-*/
-
 #include "my.h"
 
 char	*my_strupcase(char *str)

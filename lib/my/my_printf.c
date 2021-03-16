@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** printf
-** File description:
-** printf
-*/
-
 #include "my.h"
 
 void	init_ptr(int (**print)())

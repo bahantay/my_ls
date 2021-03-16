@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** nb
-** File description:
-** base
-*/
-
 #include "my.h"
 
 int	my_putnbru_base(unsigned int nbr, char const *base)

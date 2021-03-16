@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** revstr
-** File description:
-** str
-*/
-
 #include "my.h"
 
 char    *my_revstr(char *str)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** sho
-** File description:
-** wstr
-*/
-
 #include "my.h"
 
 int     my_showstr(char const *str)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** word
-** File description:
-** array
-*/
-
 #include "my.h"
 
 int	my_delim(char s, char *lim)

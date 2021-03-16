@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** nc
-** File description:
-** py
-*/
-
 #include "my.h"
 
 char	*my_strncpy(char *dest, char const *src, int n)

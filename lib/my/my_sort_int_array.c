@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** sort
-** File description:
-** array
-*/
-
 #include "my.h"
 
 void	my_sort_int_array(int *array, int size)

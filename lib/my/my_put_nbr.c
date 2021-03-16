@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** nbr
-** File description:
-** put
-*/
-
 #include "my.h"
 
 int	nb_is_neg(int nb)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** lower
-*/
-
 #include "my.h"
 
 int	my_str_islower(char const *str)

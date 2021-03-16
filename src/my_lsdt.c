@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** ls
-** File description:
-** dandt
-*/
-
 #include "myls.h"
 #include "my.h"
 

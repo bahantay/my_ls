@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** ncmp
-*/
-
 #include "my.h"
 
 int	my_strncmp(char const *s1, char const *s2, int n)

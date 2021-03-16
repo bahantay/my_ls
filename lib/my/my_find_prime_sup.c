@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** find
-** File description:
-** prime
-*/
-
 #include "my.h"
 
 int     my_search(int nb)

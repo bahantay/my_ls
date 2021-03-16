@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** modulol
-** File description:
-** modulol
-*/
-
 #include "my.h"
 
 int	modulol(long unsigned int nbr, char *base)

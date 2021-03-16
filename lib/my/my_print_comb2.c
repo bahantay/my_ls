@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** comb
-** File description:
-** second
-*/
-
 #include "my.h"
 
 void    display_comb2(char a, char b, char c, char d)

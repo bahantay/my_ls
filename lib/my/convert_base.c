@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** convert
-** File description:
-** base
-*/
-
 #include "my.h"
 
 int	base_decimal(char *str, int base)

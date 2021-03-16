@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** nbr
-** File description:
-** base
-*/
-
 #include "my.h"
 
 int	my_check_error_base(char const *base)

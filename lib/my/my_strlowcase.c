@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** lowcase
-*/
-
 #include "my.h"
 
 char	*my_strlowcase(char *str)

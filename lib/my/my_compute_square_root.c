@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** square
-** File description:
-** root
-*/
-
 #include "my.h"
 
 int	my_power(int nb, int p)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** put
-** File description:
-** speciale
-*/
-
 #include "my.h"
 
 int    my_put_nbr_octal(int nb)

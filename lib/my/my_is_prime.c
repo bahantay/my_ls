@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** prime
-** File description:
-** is
-*/
-
 #include "my.h"
 
 int	my_is_prime(int nb)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** len
-*/
-
 #include "my.h"
 
 int	my_len(char *str)

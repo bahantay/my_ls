@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** neg
-** File description:
-** or not
-*/
-
 #include "my.h"
 
 int	my_isneg(int n)

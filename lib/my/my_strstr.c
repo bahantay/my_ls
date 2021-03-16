@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** str
-** File description:
-** str
-*/
-
 #include "my.h"
 
 int	my_find_next(char const *str, char const *to_find)

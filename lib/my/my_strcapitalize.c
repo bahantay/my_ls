@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** capi
-** File description:
-** talize
-*/
-
 #include "my.h"
 
 int	is_digit(char c)

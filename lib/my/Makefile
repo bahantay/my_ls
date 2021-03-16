@@ -1,10 +1,3 @@
-##
-## EPITECH PROJECT, 2017
-## makefile
-## File description:
-## make
-##
-
 CC	=	gcc
 
 RM	=	rm -rf

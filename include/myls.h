@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** ls
-** File description:
-** my
-*/
-
 #ifndef _MYLS_H_
 #define _MYLS_H_
 

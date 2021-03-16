@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** is
-** File description:
-** upper
-*/
-
 #include "my.h"
 
 int	my_str_isupper(char const *str)

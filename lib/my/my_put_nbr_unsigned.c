@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** put
-** File description:
-** unsigned
-*/
-
 #include "my.h"
 
 int	my_put_nbr_unsigned(unsigned int nb)

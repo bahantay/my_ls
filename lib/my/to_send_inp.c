@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** send
-** File description:
-** inp
-*/
-
 #include "my.h"
 
 int	send_p(va_list arg, int (**print)())

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** fact
-** File description:
-** it
-*/
-
 #include "my.h"
 
 int	my_compute_factorial_it(int nb)

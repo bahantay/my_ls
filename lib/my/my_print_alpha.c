@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** print
-** File description:
-** alpha
-*/
-
 #include "my.h"
 
 int	my_print_alpha(void)

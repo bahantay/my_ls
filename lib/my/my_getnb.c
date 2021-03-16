@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** get
-** File description:
-** nbr
-*/
-
 #include "my.h"
 
 int	is_num(char a)

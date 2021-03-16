@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** my
-** File description:
-** h
-*/
-
 #ifndef _MY_H_
 # define _MY_H_
 

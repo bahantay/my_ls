@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** print
-** File description:
-** comb
-*/
-
 #include "my.h"
 
 void	display(int a, int b , int c)

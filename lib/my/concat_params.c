@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** concat
-** File description:
-** params
-*/
-
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

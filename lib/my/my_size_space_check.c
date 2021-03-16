@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** check
-** File description:
-** sizeandother
-*/
-
 #include "my.h"
 
 int     my_char_isnum(char str)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** eveil
-** File description:
-** str
-*/
-
 #include "my.h"
 
 char	*my_evil_str(char *str)

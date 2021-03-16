@@ -1,10 +1,3 @@
-##
-## EPITECH PROJECT, 2017
-## MAKEFILE
-## File description:
-## Makefile
-##
-
 NAME	= my_ls
 
 CC	= gcc -g

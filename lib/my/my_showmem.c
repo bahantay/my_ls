@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** show
-** File description:
-** men
-*/
-
 #include "my.h"
 
 int	my_showmem(char const *str, int size)

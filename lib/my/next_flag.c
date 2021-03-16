@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** next
-** File description:
-** flag
-*/
-
 #include "my.h"
 
 int     is_flag(char car)

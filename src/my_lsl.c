@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2017
-** ls
-** File description:
-** tiretl
-*/
-
 #include "myls.h"
 #include "my.h"
 
