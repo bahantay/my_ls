@@ -1,5 +1,17 @@
 # my_ls
 
+Dear peer reviewer, after compile (make), please delete all file ".o" formats (by "rm *.o")
+
+it would be easy to read files in this "project" directory 
+
+or if you won't delete those files, you will see a lot of files and they sort HORIZONTALLY not vertically
+
+Thank you in advance!
+
+
+
+
+
 My Ls
 
 Technical details	
