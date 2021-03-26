@@ -1,47 +1,47 @@
 #include "my_ls.h"
 
-int is_option(char* str)
+//function for malloc
+t_opt* init_opt()
 {
-    if (str[0] == '-')
+    return (t_opt*)my_init(sizeof(t_opt));   //from Kwame's video
+}
+
+//function for set flags to zero but with char c
+int get_opt_int(char c)
+{
+    t_opt_list opt[]=
     {
-        return 1;
+        {'a', OPT_a},
+        {'t', OPT_t},
+        {'R', OPT_R},
+        
+        {0,0}
+    };
+    t_opt_list* temp = opt;
+
+    while (temp->opt_char != 0)
+    {
+        if (temp->opt_char == c)
+        {
+            return (temp->opt_int);
+        }
+        temp += 1;
     }
+
     return 0;
 }
 
-t_opt* init_opt()
-{
-    t_opt* opt = (t_opt*)malloc(sizeof(t_opt));
-
-    opt->a = 0;
-    opt->t = 0;
-    opt->R = 0;
-
-    return opt;
-}
-
-void set_opt(t_opt* opt, char* str)
+void set_option(t_opt* opt, char* str)
 {
     int index = 0;
 
     while (str[index] != '\0')
     {
-        if (str[index] == 'a')
-        {
-            opt->a = 1;
-        }
-        if (str[index] == 't')
-        {
-            opt->t = 1;
-        }
-        if (str[index] == 'R')
-        {
-            opt->R = 1;
-        }
+        opt->options |= get_opt_int(str[index]); // | is equal to or
         index += 1;
     }
 }
-
+// checking for main
 t_opt* get_opt(int ac, char** av)
 {
     t_opt* opt = init_opt();
@@ -51,7 +51,7 @@ t_opt* get_opt(int ac, char** av)
     {
         if (is_option(av[index]) == 1)
         {
-            set_opt(opt, av[index] + 1);
+            set_option(opt, av[index] + 1);
         }
         index += 1;
     }
